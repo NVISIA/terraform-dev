@@ -1,4 +1,4 @@
-FROM hashicorp/terraform:1.3.2 AS TF-BUILD
+FROM hashicorp/terraform:1.4.4 AS TF-BUILD
 
 FROM debian:buster-slim
 RUN apt-get update; apt-get install unzip curl -y
